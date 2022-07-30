@@ -1,0 +1,147 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+
+
+#rectangle{
+    padding-top: 10%;
+    position: absolute;
+    width:100%;
+    height: 100%;
+    background: radial-gradient(ellipse at center, rgb(255,20,147), rgb(22, 160, 221));
+  }
+
+
+
+
+
+.container
+{
+    min-height: 50%;
+    display: inline-grid;
+    place-items: center;
+    margin-left: 30%;
+   
+}
+
+
+.Language{
+    display: inline;
+    border: 5px dotted  #cd11a3;
+    border-radius: 30px;
+    box-shadow: #3d723d3d;
+    
+    border-top-style: dotted;
+    border-right-style: solid;
+    border-bottom-style: dotted;
+    border-left-style: solid;
+    place-items: center;
+  }
+
+
+#English_Buttons{
+    background-color: 0px 9px #660066 ; 
+    border: none;
+    color: rgba(162, 16, 16);
+    
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 30px 0px 0px 30px;
+    
+}
+
+
+
+#Arabic_Buttons{
+    background-color:#660066 ; /* Green */
+    border: none;
+    color: white;
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 0px 30px 30px 0px;
+}
+
+
+.inputBx
+{
+    display: flex ;
+    height: 30 ;
+   
+    
+}
+
+
+.inputBx input
+{
+
+    margin-top: 20px;
+    margin-bottom: 50px;
+    padding: 20px ;
+    border: none;
+    box-shadow:  0  4px rgba(181, 16, 16, 0.4);
+    outline: none;
+    width: 400px;
+    height: 40;
+    font-size: 15px;
+    font-weight: italic;
+    font-family: "Times New Roman";
+    text-align:right;
+    border-radius: 0px 50px 0px 50px;
+    
+   
+}
+
+
+.inputBx .icon
+{
+    width: 50px;
+    height: 50px;
+    display: grid;
+    place-items: center;
+    box-shadow:  0  4px rgba(0,0,0,.4);
+    border-radius: 5%;
+    cursor: pointer;
+    color: rgb(255, 0, 230);
+    background-color: white;
+    margin-right: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+
+}
+
+
+.inputBx .icon i
+{
+    pointer-events: none;
+}
+
+
+
+
+@keyframes breathe {
+    0% {
+   box-shadow: 0 0 0 7px rgba(31, 136, 181, 0.4);
+    }
+    50% {
+   box-shadow: 0 0 0 25px rgba(157, 208, 230,0.7);
+    }
+    100% {
+   box-shadow: 0 0 0 7px rgba(157, 208, 230,0.4);
+    }
+   }
+
+
+
+
